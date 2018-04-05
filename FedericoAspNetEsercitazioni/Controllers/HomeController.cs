@@ -21,5 +21,11 @@ namespace FedericoAspNetEsercitazioni.Controllers {
 
 			return View();
 		}
+
+		public ActionResult Mypage() {
+			ViewBag.Message = "Your contact page.";
+
+			return View();
+		}
 	}
 }
